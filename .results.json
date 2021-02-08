@@ -1,0 +1,136 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 5,
+    "passes": 0,
+    "pending": 0,
+    "failures": 5,
+    "start": "2021-02-08T05:28:47.400Z",
+    "end": "2021-02-08T05:28:47.453Z",
+    "duration": 53
+  },
+  "tests": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'currentSlideIndex' of null\n    at ShallowWrapper.state (node_modules/enzyme/build/ShallowWrapper.js:984:24)\n    at Context.<anonymous> (test/index-test.js:19:20)",
+        "message": "Cannot read property 'currentSlideIndex' of null"
+      }
+    },
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'done2' to equal 'I am on slide 0'",
+        "showDiff": true,
+        "actual": "done2",
+        "expected": "I am on slide 0",
+        "stack": "AssertionError: expected 'done2' to equal 'I am on slide 0'\n    at Context.<anonymous> (test/index-test.js:23:31)"
+      }
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'secondsLeft' of null\n    at ShallowWrapper.state (node_modules/enzyme/build/ShallowWrapper.js:984:24)\n    at Context.<anonymous> (test/index-test.js:32:20)",
+        "message": "Cannot read property 'secondsLeft' of null"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'done1' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": "done1",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected 'done1' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'done1' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": "done1",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected 'done1' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'currentSlideIndex' of null\n    at ShallowWrapper.state (node_modules/enzyme/build/ShallowWrapper.js:984:24)\n    at Context.<anonymous> (test/index-test.js:19:20)",
+        "message": "Cannot read property 'currentSlideIndex' of null"
+      }
+    },
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'done2' to equal 'I am on slide 0'",
+        "showDiff": true,
+        "actual": "done2",
+        "expected": "I am on slide 0",
+        "stack": "AssertionError: expected 'done2' to equal 'I am on slide 0'\n    at Context.<anonymous> (test/index-test.js:23:31)"
+      }
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'secondsLeft' of null\n    at ShallowWrapper.state (node_modules/enzyme/build/ShallowWrapper.js:984:24)\n    at Context.<anonymous> (test/index-test.js:32:20)",
+        "message": "Cannot read property 'secondsLeft' of null"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'done1' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": "done1",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected 'done1' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'done1' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": "done1",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected 'done1' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)"
+      }
+    }
+  ],
+  "passes": []
+}
